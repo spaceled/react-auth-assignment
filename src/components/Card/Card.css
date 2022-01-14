@@ -1,0 +1,27 @@
+.card{
+    height: 280px;
+    margin-top: 60% !important;
+    text-align: center;
+    width: 100%;
+}
+
+@media only screen and (max-width: 576px) {
+   
+    .card{
+        height: 220px;
+        margin-top: 5% !important;
+        text-align: center;
+        width: 80%;
+        margin-left: 10%;
+        text-decoration: none !important;
+    }
+    .card img{
+      
+        margin-left: 18% !important;
+    }
+    
+  }
+
+  .card_text{
+      text-decoration: none !important;
+  }
